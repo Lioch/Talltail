@@ -44,15 +44,18 @@ public class HeightController : MonoBehaviour
     private void OnLocomotionEventHandled(LocomotionEvent locomotionEvent, Pose delta)
     {
         // Handle the locomotion event
-        Debug.Log("Locomotion event handled. " + delta.position);
-        v3PosRef = transformPlayer.position;
-        fltTimer = fltChangeTime;
+        Debug.Log("Locomotion event handled. " + delta.rotation);
+        if (delta.rotation.x == 0 && delta.rotation.y == 0 && delta.rotation.z == 0)
+        {
+            v3PosRef = new Vector3(transformPlayer.position.x, transformPlayer.position.y, transformPlayer.position.z);
+        }
     }
 
     private void Update()
     {
         if (fltStartOffset != fltOffsets[intCurrentIndex])
         {
+            Debug.Log("over time");
             AdjustHeadHeightOverTime();
         }
         else
@@ -69,7 +72,6 @@ public class HeightController : MonoBehaviour
             float t = Mathf.Clamp01(fltTimer / fltChangeTime);
             fltCurrentOffset = Mathf.Lerp(fltStartOffset, fltOffsets[intCurrentIndex], t);
             transformPlayer.position = new Vector3(transformPlayer.position.x, v3PosRef.y + fltCurrentOffset, transformPlayer.position.z);
-            Debug.Log(fltStartOffset + " " + fltOffsets[intCurrentIndex]);
             // Vector3 newOffset = _locomotor.transform.position + new Vector3(0, delta.position.y, 0);
             // Quaternion newRotation = _locomotor.transform.rotation;
             // Vector3 newScale = _locomotor.transform.localScale;
@@ -83,13 +85,15 @@ public class HeightController : MonoBehaviour
 
     private void AdjustHeadHeightInstant()
     {
-        transformPlayer.position = new Vector3(transformPlayer.position.x, v3PosRef.y + fltOffsets[intCurrentIndex], transformPlayer.position.z);
+        fltCurrentOffset = fltOffsets[intCurrentIndex];
+        transformPlayer.position = new Vector3(transformPlayer.position.x, v3PosRef.y + fltCurrentOffset, transformPlayer.position.z);
     }
 
     public void IncreaseHeightIndex() {
         if (intCurrentIndex < fltOffsets.Length)
         {
             intCurrentIndex += 1;
+            fltTimer = 0;
         }
         else
         {
@@ -102,6 +106,7 @@ public class HeightController : MonoBehaviour
         if (intCurrentIndex >= 0)
         {
             intCurrentIndex -= 1;
+            fltTimer = 0;
         }
         else
         {
