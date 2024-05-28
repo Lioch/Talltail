@@ -4998,15 +4998,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 6690453fe16c728478d2c236edd6d502, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6690453fe16c728478d2c236edd6d502, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6690453fe16c728478d2c236edd6d502, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6690453fe16c728478d2c236edd6d502, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5150,5 +5150,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heightController: {fileID: 0}
   headPos: {fileID: 0}
-  fltMinDistance: 0.2
+  fltMinDistance: 0.6
   isGrowFruit: 1

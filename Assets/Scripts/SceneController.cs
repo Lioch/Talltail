@@ -25,7 +25,10 @@ public class SceneController : MonoBehaviour
 
     public void EndScene()
     {
-        animDoor.SetTrigger("Open");
+        if (animDoor != null)  // some scenes might not have a door
+        {
+            animDoor.SetTrigger("Open");
+        }
         StartCoroutine(SwitchScenes());
     }
 
