@@ -67,12 +67,12 @@ MonoBehaviour:
   _locomotor: {fileID: 0}
   transformPlayer: {fileID: 0}
   fltOffsets:
+  - -1
   - -0.5
-  - -0.25
   - 0
-  - 0.25
-  - 0.5
-  fltChangeTime: 2
+  - 0.75
+  - 1.5
+  fltChangeTime: 1
 --- !u!1 &2136520694919814276
 GameObject:
   m_ObjectHideFlags: 0
