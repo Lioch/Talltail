@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    [SerializeField] private Animator animDoor;
     [SerializeField] private string strNextScene;
     [SerializeField] private float fltFadeTime = 2f;
     [SerializeField] private float fltWaitTime = 1f;
@@ -23,12 +22,13 @@ public class SceneController : MonoBehaviour
         timer = 0;
     }
 
+    public void SetNextScene(string name)
+    {
+        strNextScene = name;
+    }
+
     public void EndScene()
     {
-        if (animDoor != null)  // some scenes might not have a door
-        {
-            animDoor.SetTrigger("Open");
-        }
         StartCoroutine(SwitchScenes());
     }
 
@@ -49,9 +49,9 @@ public class SceneController : MonoBehaviour
         float t = Mathf.Clamp01(timer / fltFadeTime);
         float fltNewAlpha = Mathf.Lerp(fltStartApha, fltEndApha, t);
         MRDarkSphere.material.color = new Color(
-            MRDarkSphere.material.color.r, 
-            MRDarkSphere.material.color.g, 
-            MRDarkSphere.material.color.b, 
+            MRDarkSphere.material.color.r,
+            MRDarkSphere.material.color.g,
+            MRDarkSphere.material.color.b,
             fltNewAlpha);
     }
 

@@ -3,9 +3,10 @@ using UnityEngine.UI;
 
 public class QuestionnaireController : MonoBehaviour
 {
+    [SerializeField] private string strQuestionnaireName;
     [SerializeField] private SceneController sceneController;
     [SerializeField] private GameObject[] UIPages;
-    
+
     private int[] intAnswers;
     private int intPageIndex = 0;
 
@@ -41,6 +42,7 @@ public class QuestionnaireController : MonoBehaviour
 
         if (++intPageIndex >= UIPages.Length)
         {
+            ExportData();
             sceneController.EndScene();
         }
         else
@@ -56,5 +58,15 @@ public class QuestionnaireController : MonoBehaviour
             i.SetActive(false);
         }
         UIPages[--intPageIndex].SetActive(true);
+    }
+
+    void ExportData()
+    {
+        string strExport = $"Questionnaire: {strQuestionnaireName}\n";
+        for (int i = 1; i < intAnswers.Length - 1; i++) // the first page and last page are not questions
+        {
+            strExport += $"Question {i}: {intAnswers[i]} \n";
+        }
+        RuntimeText.WriteString(strExport);
     }
 }

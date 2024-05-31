@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LockedDoor : MonoBehaviour
 {
+    [SerializeField] private SceneController sceneController;
     [SerializeField] private GameObject objKey;
     [SerializeField] private Animator anim;
 
@@ -15,5 +16,6 @@ public class LockedDoor : MonoBehaviour
         {
             anim.SetBool("Unlocked", true);
         }
+        sceneController.EndScene();
     }
 }

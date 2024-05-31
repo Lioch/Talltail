@@ -5205,7 +5205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heightController: {fileID: 0}
   headPos: {fileID: 0}
-  fltMinDistance: 0.2
+  fltMinDistance: 0.55
   isGrowFruit: 0
 --- !u!4 &610509014878657263 stripped
 Transform:
