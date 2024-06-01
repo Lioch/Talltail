@@ -11257,6 +11257,10 @@ PrefabInstance:
       propertyPath: strNextScene
       value: ForestQuestionsV1
       objectReference: {fileID: 0}
+    - target: {fileID: 8571826157694793694, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6aab4f201f304e347a8c0e9eb09c6019, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

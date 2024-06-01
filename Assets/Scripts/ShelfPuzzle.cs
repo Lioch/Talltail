@@ -32,6 +32,7 @@ public class ShelfPuzzle : MonoBehaviour
             if (CheckBlueCollisions() && CheckGreenCollisions())
             {
                 objChest.GetComponent<Animator>().SetTrigger("Unlocked");
+                objChest.GetComponent<AudioSource>().Play();
                 boolFinishedPuzzle = true;
             }
         }

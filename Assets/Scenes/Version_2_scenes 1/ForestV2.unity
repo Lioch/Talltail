@@ -998,19 +998,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -88.538765
+      value: -93.23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7516239
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.465754
+      value: 11.57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9922563
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1018,11 +1018,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.12420759
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1030,7 +1030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 14.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5ea253f970fad049a4d1575cbb2260e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -11253,6 +11253,10 @@ PrefabInstance:
       propertyPath: strNextScene
       value: ForestQuestionsV2
       objectReference: {fileID: 0}
+    - target: {fileID: 8571826157694793694, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6aab4f201f304e347a8c0e9eb09c6019, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
