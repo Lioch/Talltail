@@ -44,8 +44,8 @@ public class HeightController : MonoBehaviour
     private void OnLocomotionEventHandled(LocomotionEvent locomotionEvent, Pose delta)
     {
         // Handle the locomotion event
-        Debug.Log("Locomotion event handled. " + delta.rotation);
-        if (delta.rotation.x == 0 && delta.rotation.y == 0 && delta.rotation.z == 0)
+        Debug.Log("Locomotion event handled. " + locomotionEvent.Translation);
+        if (locomotionEvent.Translation != LocomotionEvent.TranslationType.None)
         {
             v3PosRef = new Vector3(transformPlayer.position.x, transformPlayer.position.y, transformPlayer.position.z);
         }
