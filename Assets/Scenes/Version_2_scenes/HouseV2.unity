@@ -1295,9 +1295,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 402668, guid: 94a4e3eafbc7e2942931221d56b6e8d6, type: 3}
       insertIndex: 0
       addedObject: {fileID: 533879590}
-    - targetCorrespondingSourceObject: {fileID: 402668, guid: 94a4e3eafbc7e2942931221d56b6e8d6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1298766691}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 118020, guid: 94a4e3eafbc7e2942931221d56b6e8d6, type: 3}
       insertIndex: -1
@@ -8247,84 +8244,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2, y: 1, z: 4}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &1298766690
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 214699063}
-    m_Modifications:
-    - target: {fileID: 3386189145626087790, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: instanceId
-      value: f3f73d6c-4fde-4576-b55d-7dce190f996b
-      objectReference: {fileID: 0}
-    - target: {fileID: 3629823236977399377, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: headPos
-      value: 
-      objectReference: {fileID: 2134063724}
-    - target: {fileID: 3629823236977399377, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: sizeController
-      value: 
-      objectReference: {fileID: 2134063725}
-    - target: {fileID: 3629823236977399377, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: heightController
-      value: 
-      objectReference: {fileID: 2134063723}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5234052297415540595, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-      propertyPath: m_Name
-      value: grow_fruit
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
---- !u!4 &1298766691 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
-  m_PrefabInstance: {fileID: 1298766690}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1307288019
 PrefabInstance:
   m_ObjectHideFlags: 0
