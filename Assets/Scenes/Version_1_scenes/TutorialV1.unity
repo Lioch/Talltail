@@ -1237,7 +1237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.3
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2452,7 +2452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.3
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2565,6 +2565,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a32e2c8fec966243b0eeb1aeb932c1b, type: 3}
+--- !u!1 &853880246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4210360884268176114, guid: 1a32e2c8fec966243b0eeb1aeb932c1b, type: 3}
+  m_PrefabInstance: {fileID: 853880245}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &865653646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2815,7 +2820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.3
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4822,7 +4827,7 @@ PrefabInstance:
     - target: {fileID: 2926330624070753687, guid: 418afa357be781349a1913b61787237b, type: 3}
       propertyPath: objKey
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 853880246}
     - target: {fileID: 2926330624070753687, guid: 418afa357be781349a1913b61787237b, type: 3}
       propertyPath: sceneController
       value: 
@@ -5886,7 +5891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.3
+      value: 7.4
       objectReference: {fileID: 0}
     - target: {fileID: 6752854735080203653, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_LocalPosition.z
