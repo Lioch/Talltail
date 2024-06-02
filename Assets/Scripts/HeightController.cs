@@ -13,7 +13,6 @@ public class HeightController : MonoBehaviour
     private float fltStartOffset = 0;
     private float fltCurrentOffset;
     private float fltTimer;
-    private bool changeOverTime = false;
 
     // Start is called before the first frame update
     void Start()
@@ -55,7 +54,6 @@ public class HeightController : MonoBehaviour
     {
         if (fltStartOffset != fltOffsets[intCurrentIndex])
         {
-            Debug.Log("over time");
             AdjustHeadHeightOverTime();
         }
         else
@@ -72,10 +70,6 @@ public class HeightController : MonoBehaviour
             float t = Mathf.Clamp01(fltTimer / fltChangeTime);
             fltCurrentOffset = Mathf.Lerp(fltStartOffset, fltOffsets[intCurrentIndex], t);
             transformPlayer.position = new Vector3(transformPlayer.position.x, v3PosRef.y + fltCurrentOffset, transformPlayer.position.z);
-            // Vector3 newOffset = _locomotor.transform.position + new Vector3(0, delta.position.y, 0);
-            // Quaternion newRotation = _locomotor.transform.rotation;
-            // Vector3 newScale = _locomotor.transform.localScale;
-            // _locomotor.InjectPlayerHead = new Transform(newHeadPosition, newRotation, newScale)
         }
         else
         {
@@ -94,6 +88,7 @@ public class HeightController : MonoBehaviour
         {
             intCurrentIndex += 1;
             fltTimer = 0;
+            Debug.Log($"Fruit eaten! Current height index: {intCurrentIndex}");
         }
         else
         {
@@ -107,6 +102,7 @@ public class HeightController : MonoBehaviour
         {
             intCurrentIndex -= 1;
             fltTimer = 0;
+            Debug.Log($"Fruit eaten! Current height index: {intCurrentIndex}");
         }
         else
         {
@@ -114,8 +110,8 @@ public class HeightController : MonoBehaviour
         }
     }
 
-    public float GetCurrentOffset()
+    public float GetCurrentIndex()
     {
-        return fltOffsets[intCurrentIndex];
+        return intCurrentIndex;
     }
 }

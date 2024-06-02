@@ -5212,8 +5212,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heightController: {fileID: 0}
+  sizeController: {fileID: 0}
   headPos: {fileID: 0}
-  fltMinDistance: 0.5
+  fltMinDistance: 0.4
   audioSource: {fileID: 3290437260016000241}
   clip: {fileID: 8300000, guid: 7a838d4cb51ca1f43ab7cb7e60f343d5, type: 3}
   isGrowFruit: 1

@@ -6,16 +6,35 @@ public class RockObstacle : MonoBehaviour
 {
     [SerializeField] GameObject objBlockingCollider;
     [SerializeField] HeightController heightController;
+    [SerializeField] SizeController sizeController;
 
     void Update()
     {
-        if (heightController.GetCurrentOffset() < 0) // check if smaller than normal
+        if (sizeController.enabled && !heightController.enabled)
         {
-            objBlockingCollider.SetActive(false);
+            if (sizeController.GetCurrentIndex() < 2) // check if smaller than normal
+            {
+                objBlockingCollider.SetActive(false);
+            }
+            else
+            {
+                objBlockingCollider.SetActive(true);
+            }
+        }
+        else if (!sizeController.enabled && heightController.enabled)
+        {
+            if (heightController.GetCurrentIndex() < 2) // check if smaller than normal
+            {
+                objBlockingCollider.SetActive(false);
+            }
+            else
+            {
+                objBlockingCollider.SetActive(true);
+            }
         }
         else
         {
-            objBlockingCollider.SetActive(true);
+            Debug.LogError($"Problem with height or size controller found for {gameObject.name}");
         }
     }
 }

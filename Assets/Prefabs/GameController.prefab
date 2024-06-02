@@ -958,6 +958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6073265832894644869}
   - component: {fileID: 7912674708675359250}
+  - component: {fileID: 2070657844234475905}
   - component: {fileID: 6993948796812181038}
   - component: {fileID: 8571826157694793694}
   m_Layer: 0
@@ -1001,6 +1002,26 @@ MonoBehaviour:
   fltFadeTime: 5
   fltWaitTime: 2
   MRDarkSphere: {fileID: 8877640001594412943}
+--- !u!114 &2070657844234475905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050164396904199190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d7aa29c21a2984eba360f58673f4c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transformPlayer: {fileID: 7257710458989946112}
+  fltScales:
+  - 0.33
+  - 0.67
+  - 1
+  - 1.5
+  - 2
+  fltChangeTime: 1
 --- !u!114 &6993948796812181038
 MonoBehaviour:
   m_ObjectHideFlags: 0

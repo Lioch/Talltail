@@ -2,9 +2,9 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class MagicFruit : MonoBehaviour
+public class FruitSizeChange : MonoBehaviour
 {
-    [SerializeField] HeightController heightController;
+    [SerializeField] SizeController sizeController;
     [SerializeField] Transform headPos;
     [SerializeField] float fltMinDistance = 0.5f;
     [SerializeField] AudioSource audioSource;
@@ -33,11 +33,11 @@ public class MagicFruit : MonoBehaviour
 
             if (isGrowFruit)
             {
-                heightController.IncreaseHeightIndex();
+                sizeController.IncreaseHeightIndex();
             }
             else
             {
-                heightController.DecreaseHeightIndex();
+                sizeController.DecreaseHeightIndex();
             }
 
             StartCoroutine(Eat());
