@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartMenuScene.unity
+    path: Assets/Scenes/StartMenu.unity
     guid: 94c69bcd8662c3e448ac27febdd3fa13
   - enabled: 1
     path: Assets/Scenes/Version_1_scenes/TutorialV1.unity
@@ -21,17 +21,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Version_1_scenes/QuestionsForestV1.unity
     guid: cd97fec019e899b4b8df6c8e80506fb8
   - enabled: 1
-    path: Assets/Scenes/HouseScene.unity
+    path: Assets/Scenes/Version_1_scenes/HouseV1.unity
     guid: 5fcc06f75527e164db6cc7c2ef2b565f
   - enabled: 1
-    path: Assets/Scenes/Version_2_scenes 1/TutorialV2.unity
-    guid: 59f3996152365a745a1104b170a177b5
+    path: Assets/Scenes/Version_1_scenes/QuestionsHouseV1.unity
+    guid: f10d12c657ba7b44fae2408fe652bd77
   - enabled: 1
-    path: Assets/Scenes/Version_2_scenes 1/QuestionsTutorialV2.unity
+    path: Assets/Scenes/Version_2_scenes/TutorialV2.unity
+    guid: 406680581984c0241a7e6ed74917fb68
+  - enabled: 1
+    path: Assets/Scenes/Version_2_scenes/QuestionsTutorialV2.unity
     guid: fedd175ba3cb79047b22e24ccc323cbf
   - enabled: 1
-    path: Assets/Scenes/Version_2_scenes 1/ForestV2.unity
+    path: Assets/Scenes/Version_2_scenes/ForestV2.unity
     guid: bbab6a0f13d41ff43b28cba017e47c7f
+  - enabled: 1
+    path: Assets/Scenes/Version_2_scenes/QuestionsForestV2.unity
+    guid: 2e70a9552e298c647bacd83e2c16980b
+  - enabled: 1
+    path: Assets/Scenes/Version_2_scenes/HouseV2.unity
+    guid: 94989e8cab997cc4dadb4afffe951354
+  - enabled: 1
+    path: Assets/Scenes/Version_2_scenes/QuestionsHouseV2.unity
+    guid: cefffd9061716894787f1932c352ca9e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

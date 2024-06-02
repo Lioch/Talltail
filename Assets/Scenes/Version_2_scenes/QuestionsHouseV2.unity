@@ -12263,7 +12263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f977828960ee4614bbd78682e302bc2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strQuestionnaireName: Forest V1
+  strQuestionnaireName: House V2
   sceneController: {fileID: 1804974082}
   UIPages:
   - {fileID: 1962287440}
@@ -28734,6 +28734,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1887031623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1887031624}
+  m_Layer: 0
+  m_Name: slider_background_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1887031624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887031623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917615434
 GameObject:
   m_ObjectHideFlags: 0
@@ -33703,7 +33734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7912674708675359250, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: strNextScene
-      value: HouseV1
+      value: StartMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34238,3 +34269,4 @@ SceneRoots:
   - {fileID: 375774773}
   - {fileID: 526185133}
   - {fileID: 824192922}
+  - {fileID: 1887031624}

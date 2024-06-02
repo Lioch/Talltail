@@ -12263,7 +12263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f977828960ee4614bbd78682e302bc2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strQuestionnaireName: House
+  strQuestionnaireName: Tutorial V2
   sceneController: {fileID: 1804974082}
   UIPages:
   - {fileID: 1962287440}
@@ -33731,6 +33731,10 @@ PrefabInstance:
     - target: {fileID: 6073265832894644869, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912674708675359250, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: strNextScene
+      value: ForestV2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
