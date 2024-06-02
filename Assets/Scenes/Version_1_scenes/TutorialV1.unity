@@ -5867,7 +5867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5384719476672694267, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_text
-      value: To move, flick or hold either joystick forward or backwards
+      value: To move, hold the joystick on either controller forward
       objectReference: {fileID: 0}
     - target: {fileID: 5384719476672694267, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_HorizontalAlignment

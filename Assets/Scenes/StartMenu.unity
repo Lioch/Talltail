@@ -642,6 +642,11 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &398337051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7257710458989984038, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+  m_PrefabInstance: {fileID: 3518350726929522836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &526185132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3418,7 +3423,7 @@ PrefabInstance:
     - target: {fileID: 7084296370854210658, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: gameObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 398337051}
     - target: {fileID: 7912674708675359250, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: strNextScene
       value: StartMenu
