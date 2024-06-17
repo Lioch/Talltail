@@ -1603,8 +1603,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.65
-  m_Height: 10
+  m_Radius: 0.7
+  m_Height: 10.5
   m_Direction: 0
   m_Center: {x: 0, y: 0.00000047683716, z: 0}
 --- !u!4 &298370924 stripped
@@ -1783,7 +1783,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &375774772
 Light:
@@ -2368,7 +2368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.647
+      value: -16.494
       objectReference: {fileID: 0}
     - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2376,7 +2376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.547
+      value: -32.501
       objectReference: {fileID: 0}
     - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6279,8 +6279,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.65
-  m_Height: 10
+  m_Radius: 0.7
+  m_Height: 10.5
   m_Direction: 0
   m_Center: {x: 0, y: 0.00000047683716, z: 0}
 --- !u!1001 &1245420970
@@ -7012,7 +7012,7 @@ Transform:
   m_GameObject: {fileID: 1380392550}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.9914449, z: -0, w: 0.13052626}
-  m_LocalPosition: {x: -33.32, y: 5.3, z: -5.98}
+  m_LocalPosition: {x: -32.75, y: 5.56, z: -6.13}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7032,7 +7032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneController: {fileID: 1804974082}
   transformPlayer: {fileID: 380114223}
-  fltMinDist: 1.3
+  fltMinDist: 2
 --- !u!4 &1385262910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d4b241c485632de4681f506d0b31c588, type: 3}
@@ -9111,8 +9111,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.65
-  m_Height: 10
+  m_Radius: 0.7
+  m_Height: 10.5
   m_Direction: 0
   m_Center: {x: 0, y: 0.00000047683716, z: 0}
 --- !u!114 &1804974082 stripped
@@ -9940,8 +9940,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.65
-  m_Height: 10
+  m_Radius: 0.7
+  m_Height: 10.5
   m_Direction: 0
   m_Center: {x: 0, y: 0.00000047683716, z: 0}
 --- !u!1001 &1947931127
@@ -11119,7 +11119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.624
+      value: -2.601
       objectReference: {fileID: 0}
     - target: {fileID: 4893379221519689161, guid: 6bc6c7aac0243bd48b18c9cdd1a35dda, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11281,6 +11281,22 @@ PrefabInstance:
     - target: {fileID: 7217163805693264907, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257710458988309212, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257710458988309212, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257710458988309212, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257710458988309212, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7912674708675359250, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: strNextScene

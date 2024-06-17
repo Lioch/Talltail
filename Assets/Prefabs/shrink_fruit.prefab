@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f8766c17-aaf8-4b55-9431-de8deea83842
-  instanceId: cb6ebb95-9649-4af9-9d4c-45a6fae10d68
+  instanceId: 2ec53dec-d4d5-4844-a6e7-cb42321ca403
   version: 1
 --- !u!114 &3572786751846914564
 MonoBehaviour:
@@ -5163,10 +5163,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.125
   m_Height: 0.11
   m_Direction: 1
-  m_Center: {x: 0.1, y: 0.035, z: -0.095}
+  m_Center: {x: 0, y: 0.035, z: 0}
 --- !u!54 &6750688232222746332
 Rigidbody:
   m_ObjectHideFlags: 0

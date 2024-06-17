@@ -4888,7 +4888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockId: f8766c17-aaf8-4b55-9431-de8deea83842
-  instanceId: 3c03cdc0-98d4-4b44-a5cd-01fb45f8849d
+  instanceId: 1a00e614-cf0e-46ad-9928-968799ed2b5c
   version: 1
 --- !u!114 &6441205998114021812
 MonoBehaviour:
@@ -5168,7 +5168,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.125
   m_Height: 0.100000024
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}

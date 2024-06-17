@@ -3,6 +3,7 @@ using UnityEngine;
 public class ShelfPuzzle : MonoBehaviour
 {
     [SerializeField] GameObject objChest;
+    [SerializeField] GameObject objChestFruit;
 
     [SerializeField] Transform tfBluePotion;
     [SerializeField] Transform tfGreenPotion;
@@ -14,6 +15,11 @@ public class ShelfPuzzle : MonoBehaviour
 
     bool boolFinishedPuzzle = false;
     float fltElapsedTime = 0f;
+
+    private void Start()
+    {
+        objChestFruit.SetActive(false);
+    }
 
     void Update()
     {
@@ -33,6 +39,7 @@ public class ShelfPuzzle : MonoBehaviour
             {
                 objChest.GetComponent<Animator>().SetTrigger("Unlocked");
                 objChest.GetComponent<AudioSource>().Play();
+                objChestFruit.SetActive(true);
                 boolFinishedPuzzle = true;
             }
         }

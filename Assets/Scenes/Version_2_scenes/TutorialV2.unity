@@ -1213,7 +1213,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5384719476672694267, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_text
-      value: "To interact with objects like a key, \nuse the back triggers."
+      value: "To interact with objects like a key, \nuse the triggers on the inside
+        of the controller."
       objectReference: {fileID: 0}
     - target: {fileID: 5384719476672694267, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -2518,15 +2519,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 879729365290049761, guid: 1a32e2c8fec966243b0eeb1aeb932c1b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 535.34
+      value: 535.416
       objectReference: {fileID: 0}
     - target: {fileID: 879729365290049761, guid: 1a32e2c8fec966243b0eeb1aeb932c1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.224
+      value: 7.252
       objectReference: {fileID: 0}
     - target: {fileID: 879729365290049761, guid: 1a32e2c8fec966243b0eeb1aeb932c1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 365.5
+      value: 365.581
       objectReference: {fileID: 0}
     - target: {fileID: 879729365290049761, guid: 1a32e2c8fec966243b0eeb1aeb932c1b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5107,7 +5108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7912674708675359250, guid: b4fa453ce0e4b90449c9aa246f32c0b1, type: 3}
       propertyPath: strNextScene
-      value: QuestionsTutorialV1
+      value: QuestionsTutorialV2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -5867,7 +5868,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5384719476672694267, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_text
-      value: To move, flick or hold either joystick forward or backwards
+      value: 'To move, hold the joystick on either controller forward
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5384719476672694267, guid: 8f4d7d2cf5ee8734faf102a436e8fe56, type: 3}
       propertyPath: m_HorizontalAlignment

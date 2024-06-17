@@ -4,7 +4,6 @@ public class ShrinkHallway : MonoBehaviour
 {
     [SerializeField] GameObject objBlockingColliderOne;
     [SerializeField] GameObject objBlockingColliderTwo;
-    [SerializeField] GameObject objReturnChest;
     [SerializeField] HeightController heightController;
     [SerializeField] SizeController sizeController;
 
@@ -19,7 +18,6 @@ public class ShrinkHallway : MonoBehaviour
             else if (sizeController.GetCurrentIndex() == 0) // check if smaller than small
             {
                 objBlockingColliderTwo.SetActive(false);
-                objReturnChest.GetComponent<Animator>().SetTrigger("Unlocked");
             }
             else
             {
@@ -36,7 +34,6 @@ public class ShrinkHallway : MonoBehaviour
             else if (heightController.GetCurrentIndex() == 0) // check if smaller than normal
             {
                 objBlockingColliderTwo.SetActive(false);
-                objReturnChest.GetComponent<Animator>().SetTrigger("Unlocked");
             }
             else
             {
